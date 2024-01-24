@@ -8,7 +8,7 @@ header {
 }
 
 .containerLogo {
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   img {
@@ -92,8 +92,15 @@ main {
   width: 50%;
 }
 .rightContainer {
-  background-color: lightcoral;
   width: 50%;
+  display: flex;
+}
+.rightContainer1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid #ebedef;
 }
 
 .mainNews {
@@ -138,7 +145,7 @@ main {
 .txt1 {
   font-family: "Encode Sans";
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.02em;
   margin-top: 5px;
@@ -158,4 +165,16 @@ main {
   line-height: 19px;
   letter-spacing: -0.048em;
   margin-top: 5px;
+}
+
+.marginBottom10px {
+  margin-bottom: 10px;
+}
+
+.quaternaryNews {
+  width: 80%;
+  img {
+    width: 240px;
+    height: 130px;
+  }
 }
