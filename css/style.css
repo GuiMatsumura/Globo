@@ -1,1 +1,161 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap");
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLogo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  img {
+    width: 170px;
+    height: 35px;
+  }
+}
+
+.section {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.border {
+  width: 100%;
+  border-bottom: #f7f7f7 1px solid;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Encode Sans";
+  size: 19px;
+  font-weight: 700;
+}
+
+.red {
+  color: #c3170c;
+}
+
+.blue {
+  color: #1e4b9b;
+}
+
+.greenAqua {
+  color: #006766;
+}
+
+.greenNeon {
+  color: #07aa47;
+}
+.orangeNeon {
+  color: #e3662b;
+}
+
+.pinkNeon {
+  color: #fb0735;
+}
+
+.pink {
+  color: #ff75bb;
+}
+
+.orange {
+  color: #ec7d00;
+}
+
+.gray {
+  color: #323333;
+}
+
+.gray2 {
+  color: #2f3134;
+}
+
+.purpleNeon {
+  color: #a81d83;
+}
+
+main {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftContainer {
+  width: 50%;
+}
+.rightContainer {
+  background-color: lightcoral;
+  width: 50%;
+}
+
+.mainNews {
+  font-size: 52px;
+  color: #c4160c;
+  font-family: "Encode Sans";
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  margin-bottom: 18px;
+}
+
+.secondaryNews {
+  font-family: "Encode Sans";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+  margin-top: 10px;
+}
+
+.tertiaryNewsWithImg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.tertiaryNewsWithoutImg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.tertiaryNews {
+  width: 30%;
+  img {
+    width: 193px;
+    height: 110px;
+  }
+}
+
+.txt1 {
+  font-family: "Encode Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  margin-top: 5px;
+}
+.txt2 {
+  font-family: "Encode Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  margin-top: 5px;
+}
+.txt3 {
+  font-family: "Encode Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  margin-top: 5px;
+}
